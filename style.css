@@ -47,7 +47,7 @@ section .hero-left p {
     color: #E5E7EB;
 }
 
-.signup-button {
+.hero-signup-button {
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -118,7 +118,7 @@ img.hero-right {
     color: #1F2937;
 }
 
-.quote-section blockquote p{
+.quote-section blockquote p {
     display: flex;
     justify-content: center;  
     font-size: 36px;
@@ -126,9 +126,44 @@ img.hero-right {
     font-style: italic;
 }
 
-.quote-section blockquote footer{
+.quote-section blockquote footer {
     display: flex;
     justify-content: flex-end;  
     font-weight: bold;
     font-size: 20px;
+}
+
+.sign-up-section {
+    padding: 100px 180px 100px 180px;
+}
+
+.sign-up-box {
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 10px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.content p{
+    margin: 0;
+}
+
+.content h2{
+    margin-top: 0;
+}
+
+.bottom-signup-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;;
+    cursor: pointer;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-top: 20px;
 }
