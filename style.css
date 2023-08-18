@@ -18,7 +18,7 @@ header nav {
     gap: 20px;
 }
 
-header nav div.nav-links{
+header nav div.nav-links {
     margin-left: auto;
 }
 
@@ -28,25 +28,26 @@ header nav div.nav-links{
     color: #f9faf8;
 }
 
-section .hero-left{
+section .hero-left {
     display: flex;
     flex-direction: column;
     flex: 1px;
     
 }
 
-section .hero-left h1{
+section .hero-left h1 {
     font-size: 48px;
     color: #f9faf8;
     margin-top: 0;
+    font-weight: bolder;
 }
 
-section .hero-left p{
+section .hero-left p {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.signup-button{
+.signup-button {
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -57,17 +58,54 @@ section .hero-left p{
     font-weight: bold;
 }
 
-section.hero{
+section.hero {
     display: flex;
     align-items: flex-start;
     margin-top: 100px;
     gap: 50px;
 }
 
-img.hero-right{
+img.hero-right {
     max-width: 100%;
+    min-width: 50px;
 }
 
+.information-section {
+    padding: 10px 180px 10px 180px;
+}
 
+.information-section h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.information-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.single-box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.box-with-caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
 
 
