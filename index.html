@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Flexbox Landing Page</title>
 </head>
+
 <body>
+
     <header>
         <nav>
-            <li>Header Logo</li>
-            <li>Header link one</li>
-            <li>Header link two</li>
-            <li>Header link three</li>
+            <div class="logo">
+                <span>Header Logo</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Header link one</a>
+                <a href="#">Header link two</a>
+                <a href="#">Header link three</a>
+            </div>
         </nav>
-        <section>
-            <h1>This website is awesome</h1>
-            <img src="" alt="">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Maxime iste aliquam deleniti fugit hic adipisci saepe amet rem sit odio?
-            </p>
-            <button>Sign up</button>
+
+        <section class="hero">
+            <div class="hero-left">
+                <h1>This website is awesome</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime iste aliquam deleniti fugit hic adipisci saepe amet rem sit odio?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <button class="signup-button">Sign up</button>
+            </div>
+            <img class="hero-right" src="images/hero-image.jpg" alt=""/>
         </section>
     </header>
     
