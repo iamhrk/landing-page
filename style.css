@@ -44,7 +44,7 @@ section .hero-left h1 {
 
 section .hero-left p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #E5E7EB;
 }
 
 .signup-button {
@@ -86,13 +86,13 @@ img.hero-right {
 .information-boxes {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
 .single-box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
@@ -103,9 +103,32 @@ img.hero-right {
 }
 
 .caption {
-    width: 100px;
+    width: 150px;
     text-align: center;
     margin-top: 10px;
 }
 
+.quote-section {
+    margin-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
 
+.quote-section blockquote p{
+    display: flex;
+    justify-content: center;  
+    font-size: 36px;
+    font-weight:100;
+    font-style: italic;
+}
+
+.quote-section blockquote footer{
+    display: flex;
+    justify-content: flex-end;  
+    font-weight: bold;
+    font-size: 20px;
+}
